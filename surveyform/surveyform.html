@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="surveyform.css">
+</head>
+<body>
+
+<h1 id="title">Survey Form</h1>
+
+<div id="border">
+  <p id="description">  
+  Let me know the coding language I should learn
+  </p>
+    
+      <!-- div for the title -->
+ 
+     <div>
+      <form id="survey-form">
+    <div id="name-label"><label for="name"> Name: </label></div><input id="name" type="text" placeholder="Name" required>
+    <!--div for the name-->
+
+        <div id="email-label"><label for="email">Email : </label></div><input id="email" type="email" placeholder="Email" required>
+    <!--div for the email-->
+
+        <div id="number-label"><label for="number">Age : </label></div><input id="number" type="number" placeholder="Age" min="1" max="90" required>
+    <!--div for the age-->
+
+
+        <div id="select"><label for="dropdown">Your favorite language :</label>
+        </div>
+        <select id="dropdown" name="language">
+          <option value="java">Java</option>
+          <option value="c++">C++</option>
+          <option value="js">JS</option>
+          <option value="python">Python</option>
+          <option value="php">PHP</option>
+          <option value="other">Other</option>
+        </select>
+            <!--div for the favorite language-->
+             
+         <div><label id="one">
+              The easiest language to learn :</label></div>
+
+              <div id="s">
+        <ul>
+          <li class="radio"><label><input name="easiest-language" value="java"  type="radio" >Java</label></li>
+          <li class="radio"><label><input name="easiest-language" value="c++"  type="radio">C++</label></li>
+          <li class="radio"><label><input name="easiest-language" value="js"  type="radio">JS</label></li>
+          <li class="radio"><label><input name="easiest-language" value="other"  type="radio">Other</label></li>
+        </ul>
+      </div>
+          <!--div for the easiest language-->
+
+
+            <div>
+           
+           <label id="check">
+            The language I should learn :</label></div>
+
+            <div id="checkbox">
+              <ul>
+           <li class="ra"><label><input name="radio-buttons" value="1"  type="checkbox" >Java</label></li>
+           
+
+          <li class="ra"><label><input name="radio-buttons" value="1"  type="checkbox" >C++</label></li>
+
+          <li class="ra"><label><input name="radio-buttons" value="1"  type="checkbox" >JS</label></li>
+
+          <li class="ra"><label><input name="radio-buttons" value="1"  type="checkbox" >PHP</label></li>
+
+          <li class="ra"><label><input name="radio-buttons" value="1"  type="checkbox" >Other</label></li>
+           </ul>
+           </div>
+           <!--div for the checkbox-->
+
+          <div id="text"> <label>Why would you reccomend this  language:</label> </div>
+
+
+          <div id="textarea"><textarea rows="4" cols="50" placeholder="Enter your comments here"></textarea></div>
+           <!--div for the textarea-->
+
+           <button type="submit"  id="submit">Submit</button>
+      </form>
+    </div>
+</div>
+
+</body>
+</html>
