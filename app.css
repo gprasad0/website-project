@@ -8,3 +8,52 @@
 	background: rgba(54, 54, 54, 0.9);
 	color:white;
 }
+
+#logo{
+	padding-left:10px;
+}
+
+#image{
+	   background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2_o-a6898e8c62c2e2566cfde6ca773ea0f3e23fd4ee6c03a30f5530160ed29e93e8.jpg");
+
+  height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+
+}
+
+#cards{
+	height: 180px;
+	background:#f3f3f3;
+	text-align: center;
+
+}
+
+.squares{
+	background: purple;
+	float: left;
+	margin-top:45px;
+	margin-left:25px;
+	margin-right: 20px;
+	height:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
