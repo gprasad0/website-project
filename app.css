@@ -1,0 +1,10 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#top-bar{
+	background: rgba(54, 54, 54, 0.9);
+	color:white;
+}
