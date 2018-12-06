@@ -44,7 +44,54 @@
 	height:90px;
 }
 
+#cards1{
+	height:500px;
+	background: steelblue;
+		
+}
 
+.squares2{
+	border:1px solid black;
+
+	margin-top:5px;
+    
+	height:150px;
+	width:25%;
+}
+
+
+img {
+	width: 20%;
+	float: left;
+	margin: 1.66%;
+}
+
+p {
+	font-family: Raleway;
+	margin-left: 1%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+#image-card{
+	border:1px solid black;
+	height:900px;
+	margin:0 auto;
+}
+
+.images{
+	background: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/triumph-street-twin-f05daa2c1afe29ce56c0743e633125b9640ed8d3c8ac0a6a2f4ffd32ca83a687.png");
+	background-repeat: no-repeat;
+	width:280px;
+	height:240px;
+	float:left;
+	
+	border:1px solid black;
+}
 
 
 
