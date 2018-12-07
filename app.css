@@ -11,6 +11,11 @@
 
 #logo{
 	padding-left:10px;
+	color:white;
+}
+
+.nav-link{
+color:white;
 }
 
 #image{
@@ -28,20 +33,20 @@
 
 }
 
+
+
 #cards{
 	height: 180px;
 	background:#f3f3f3;
 	text-align: center;
 
+
 }
 
 .squares{
-	background: purple;
-	float: left;
-	margin-top:45px;
-	margin-left:25px;
-	margin-right: 20px;
-	height:90px;
+	height:100px;
+
+    
 }
 
 #cards1{
@@ -66,6 +71,19 @@ img {
 	margin: 1.66%;
 }
 
+.navbar{
+	background: rgba(0,0,0,0.3);
+}
+
+.ratings{
+	height:90px;
+}
+
+.information{
+	height:120px;
+	margin-bottom:10px;
+}
+
 p {
 	font-family: Raleway;
 	margin-left: 1%;
@@ -84,16 +102,34 @@ p {
 }
 
 .images{
-	background: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/triumph-street-twin-f05daa2c1afe29ce56c0743e633125b9640ed8d3c8ac0a6a2f4ffd32ca83a687.png");
-	background-repeat: no-repeat;
-	width:280px;
-	height:240px;
-	float:left;
-	
-	border:1px solid black;
+	background:no-repeat center;
 }
 
+.card1{
+	text-align: center;
+	font-size: 18px;
+}
 
+.card2{
+	
+border:none;
+}
+
+.x{
+padding-left:10px;
+}
+
+.s{
+border:none;
+
+	}
+
+.card-img-top{
+	width:150px;
+	height:150px;
+}
+
+ 
 
 
 
